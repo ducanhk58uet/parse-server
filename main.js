@@ -8,7 +8,7 @@ var api = new ParseServer({
     appId: 'snapsofts123',
     masterKey: '123456', // Keep this key secret!
     fileKey: 'optionalFileKey',
-    serverURL: 'http://localhost:1337/parse', // Don't forget to change to https if needed
+    serverURL: 'https://l139.162.52.76:442/parse', // Don't forget to change to https if needed
     liveQuery: {
         classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
     }
